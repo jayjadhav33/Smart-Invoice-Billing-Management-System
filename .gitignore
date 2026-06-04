@@ -1,18 +1,23 @@
-# Maven
-target/
-*.class
-*.jar
-*.war
+# Maven build output
+smart-invoice-backend/target/
 
 # Eclipse
 .classpath
 .project
 .settings/
+.factorypath
 .idea/
 
-# Spring Boot
+# Sensitive config
+smart-invoice-backend/src/main/resources/application-local.properties
+smart-invoice-backend/src/main/resources/application-prod.properties
+
+# Node modules
+smart-invoice-frontend/node_modules/
+smart-invoice-frontend/build/
+
+# Logs
 *.log
-application-local.properties
 
 # OS
 .DS_Store

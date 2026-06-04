@@ -1,0 +1,8 @@
+target/
+*.class
+*.log
+.settings/
+.classpath
+.project
+.factorypath
+application-prod.properties
